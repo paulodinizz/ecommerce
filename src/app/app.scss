@@ -75,6 +75,16 @@ ion-toolbar{
 
 //Tabbar
 
+:root{
+	--ion-tab-bar-background: #ffffff;
+    --ion-tab-bar-color: #888888;
+    --ion-tab-bar-color-selected: #a012fa;
+}
+
+ion-tab-bar{
+    border-radius: 20px 20px 0px 0px;
+}
+
 
 
 
