@@ -28,7 +28,7 @@ export class AppComponent implements OnInit {
       title: 'Carrinho',
       url: '/app/tabs/speakers',
       icon: 'cart'
-    },
+    }, 
     {
       title: 'Map',
       url: '/app/tabs/map',
