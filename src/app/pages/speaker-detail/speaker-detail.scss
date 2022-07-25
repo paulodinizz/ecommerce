@@ -84,3 +84,15 @@ ion-toolbar ion-menu-button {
 
   background: var(--ion-color-step-150, #d7d8da);
 }
+
+.conteudo-principal{
+  border-radius: 20px 20px 0px 0px;
+  transform: translateY(-14px);
+  background: white;
+}
+
+.div-avaliacao .icon-star{
+  width: 100%;
+  font-size: 30px;
+  max-width: 30px;
+}

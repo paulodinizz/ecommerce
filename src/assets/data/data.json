@@ -255,7 +255,8 @@
       "location": "Everywhere",
       "email": "burt@example.com",
       "phone": "+1-541-754-3010",
-      "id": "1"
+      "id": "1",
+      "value": "R$300,00"
     },
     {
       "name": "Nike Air Max Plus",
