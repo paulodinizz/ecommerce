@@ -24,6 +24,7 @@ export class SchedulePage implements OnInit {
   groups: any = [];
   confDate: string;
   showSearchbar: boolean;
+  speakers: any[] = [];
 
   constructor(
     public alertCtrl: AlertController,
@@ -42,7 +43,12 @@ export class SchedulePage implements OnInit {
 
     this.ios = this.config.get('mode') === 'ios';
   }
-
+  ionViewDidEnter() {
+    this.confData.getSpeakers().subscribe((speakers: any[]) => {
+      this.speakers = speakers;
+    });
+  }
+  
   updateSchedule() {
     // Close any open sliding items when the schedule updates
     if (this.scheduleList) {

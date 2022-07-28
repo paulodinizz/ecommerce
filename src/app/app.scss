@@ -130,6 +130,18 @@ ion-card ion-label .title-card{
 	letter-spacing: 0px;
 }
 
+// botões
+
+.button-theme{
+	--background: linear-gradient(45deg,#8d10dc,#a012fa);
+    --box-shadow: none;
+    --color: white;
+}
+.button-theme-outline{
+	--color: #a012fa;
+    --border-color: #a012fa;
+}
+
 
 
 
